@@ -1,0 +1,12 @@
+#request
+uint8 servo
+int16 position
+int16 speed
+uint16 time
+---
+#result
+bool success
+uint64 end_time
+---
+#feedback
+uint64 current_time

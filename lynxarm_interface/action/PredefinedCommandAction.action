@@ -1,0 +1,10 @@
+#to choose command
+#request
+string command
+---
+#result
+bool success
+uint64 end_time
+---
+#feedback
+uint64 current_time

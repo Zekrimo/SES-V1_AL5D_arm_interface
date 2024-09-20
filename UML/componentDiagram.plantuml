@@ -1,0 +1,50 @@
+@startuml
+
+component Laptop{
+    component LynxHLD <<ROS::node>> { 
+        [LLD]
+        () "LLD functions" as func
+        ' port SerialPort
+        LLD - func 
+        note right of func 
+        LynxHLD uses 
+        these functions 
+        to send commands 
+        to robotarm 
+        end note
+    }
+    port "/dev/ttyUSB0" as usb
+() "ROS Commands" as commands
+LynxHLD -- commands
+}
+
+component "AL5D" as Lynxarm <<Robot Arm>> {
+    component "SSC-32U" as controller <<Controller>> {
+        [Firmware]
+        () "Lynxmotion user guide" as sl
+        port "USB COM" as port
+        sl -- Firmware 
+    }
+    [R/C Servo] as Servo <<Hardware>>
+    () "PWM" as pwm
+    pwm - Servo
+    Firmware ..> pwm : requires
+    sl - port
+
+    note bottom of usb
+    send serial commands
+    port: /dev/ttyUSB0
+    baudrate: depends on 
+    controller (ex. 115200)
+    end note
+
+     note left of pwm
+    supports 500-2500 pwm
+     end note
+}
+
+ LLD ..> usb : requires
+ usb - port
+
+@enduml
+

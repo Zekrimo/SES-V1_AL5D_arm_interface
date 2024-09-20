@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="522px" preserveAspectRatio="none" style="width:1114px;height:522px;background:#FFFFFF;" version="1.1" viewBox="0 0 1114 522" width="1114px" zoomAndPan="magnify"><defs/><g><!--MD5=[613c527b8391038ce85fa32043751aa5]
+cluster Lynxarm Hardware Interface--><g id="cluster_Lynxarm Hardware Interface"><rect fill="none" height="509" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1.0;" width="1024" x="84" y="7"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="199" x="496.5" y="23.9659">Lynxarm Hardware Interface</text></g><g id="elem_UC1"><ellipse cx="206.2113" cy="80.0423" fill="#F1F1F1" rx="85.7113" ry="19.5423" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="119" x="143.7113" y="84.7752">Initialize Lynxarm</text></g><g id="elem_UC2"><ellipse cx="516.7113" cy="303.0423" fill="#F1F1F1" rx="85.7113" ry="19.5423" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="119" x="454.2113" y="307.7752">Set Servo Position</text></g><g id="elem_UC3"><ellipse cx="205.9133" cy="158.0827" fill="#F1F1F1" rx="105.9133" ry="23.5827" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="169" x="118.4133" y="162.8156">Send Predefined Position</text></g><g id="elem_UC5"><ellipse cx="781.7037" cy="478.2407" fill="#F1F1F1" rx="99.2037" ry="22.2407" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="153" x="702.2037" y="482.9737">set Rotor Base Position</text></g><g id="elem_UC6"><ellipse cx="781.308" cy="398.7616" fill="#F1F1F1" rx="94.308" ry="21.2616" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="141" x="707.808" y="403.4946">set shoulder Position</text></g><g id="elem_UC7"><ellipse cx="781.379" cy="320.0758" fill="#F1F1F1" rx="98.379" ry="22.0758" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="151" x="702.879" y="324.8088">set rotor wrist Position</text></g><g id="elem_UC8"><ellipse cx="781.5837" cy="242.8167" fill="#F1F1F1" rx="84.5837" ry="19.3167" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="116" x="720.5837" y="247.5497">set hand Position</text></g><g id="elem_UC9"><ellipse cx="1026.3946" cy="269.9969" fill="#F1F1F1" rx="65.3946" ry="16.9969" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="73" x="986.8946" y="274.7299">open hand</text></g><g id="elem_UC10"><ellipse cx="1026.3946" cy="200.9969" fill="#F1F1F1" rx="65.3946" ry="16.9969" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="73" x="986.8946" y="205.7299">close hand</text></g><g id="elem_UC11"><ellipse cx="516.6675" cy="84.1589" fill="#F1F1F1" rx="36.6675" ry="16.6589" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="35" x="496.1675" y="88.8919">PARK</text></g><g id="elem_UC12"><ellipse cx="516.4669" cy="223.7789" fill="#F1F1F1" rx="43.4669" ry="16.7789" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="44" x="491.4669" y="228.5119">READY</text></g><g id="elem_UC13"><ellipse cx="516.4462" cy="155.0336" fill="#F1F1F1" rx="71.4462" ry="17.0336" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="81" x="472.9462" y="159.7666">STRAIGH UP</text></g><g id="elem_UC14"><ellipse cx="781.6173" cy="165.8235" fill="#F1F1F1" rx="99.6173" ry="22.3235" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="154" x="701.6173" y="170.5564">set servo wrist Position</text></g><g id="elem_UC15"><ellipse cx="205.9582" cy="235.8916" fill="#F1F1F1" rx="84.9582" ry="19.3916" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="117" x="144.4582" y="240.6246">Emergency Brake</text></g><g id="elem_GMN33"><path d="M663,45.5 L663,108.618 L900,108.618 L900,55.5 L890,45.5 L663,45.5 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M890,45.5 L890,55.5 L900,55.5 L890,45.5 " fill="#FEFFDD" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="63" x="669" y="64.397">Constraint</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="143" x="669" y="82.103">Servo must arrive at the</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="216" x="669" y="99.809">specified position within 2.3 seconds</text></g><!--MD5=[ee0fec323975fbe97ba28321ad4c4bf3]
+entity U--><g id="elem_U"><ellipse cx="21.5" cy="205" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M21.5,213 L21.5,240 M8.5,221 L34.5,221 M21.5,240 L8.5,255 M21.5,240 L34.5,255 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="31" x="6" y="271.4659">User</text></g><!--MD5=[d339eafd5e513c6cfb3f1117410f9a34]
+link U to UC2--><g id="link_U_UC2"><path d="M37.19,249.42 C47.31,257.8 61.5,267.93 76,273 C196.37,315.12 346.4,315.1 436.38,309.96 " fill="none" id="U-UC2" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[f77f2acdb179da8ec684e67fcfe8d851]
+link U to UC3--><g id="link_U_UC3"><path d="M37.2,224.04 C47.56,216.08 62.01,205.87 76,199 C94.88,189.73 116.33,181.93 136.24,175.71 " fill="none" id="U-UC3" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[7596eb7a608d1ad52dabf8f3ee129477]
+link U to UC15--><g id="link_U_UC15"><path d="M37.13,236 C55.57,236 88.74,236 120.75,236 " fill="none" id="U-UC15" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[1978fca336bca4903df2b7436344c5f8]
+link UC1 to UC11--><g id="link_UC1_UC11"><path d="M291.71,81.1 C351.13,81.87 427.98,82.87 474.41,83.47 " fill="none" id="UC1-to-UC11" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="479.64,83.54,470.6981,79.4118,474.6405,83.4686,470.5838,87.411,479.64,83.54" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="57" x="343" y="77.897">«include»</text></g><!--MD5=[a56f9de41608a5fdd8f0f70b45a15dc1]
+link UC3 to UC2--><g id="link_UC3_UC2"><path d="M267.38,177.29 C282.47,183.26 298.26,190.53 312,199 C327.27,208.41 326.95,216.24 342,226 C380.37,250.88 428.12,271.41 463.81,285 " fill="none" id="UC3-to-UC2" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="468.54,286.79,461.536,279.8658,463.8631,285.0219,458.707,287.349,468.54,286.79" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="57" x="343" y="221.897">«include»</text></g><!--MD5=[2703d3f9d28ab38b13b2399a6beb8d63]
+reverse link UC2 to UC5--><g id="link_UC2_UC5"><path d="M546.92,337.52 C574.28,367.72 617.56,410.88 663,438 C679.19,447.66 698.04,455.39 715.84,461.38 " fill="none" id="UC2-backto-UC5" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="541.44,341.89,533.44,322.26,551.93,332.62,541.44,341.89" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[8e350c6f90ea3cbecbfe6f61c65c20c2]
+reverse link UC2 to UC6--><g id="link_UC2_UC6"><path d="M578.77,327.2 C604.67,337.26 635.22,348.93 663,359 C683.87,366.56 706.96,374.52 727.12,381.32 " fill="none" id="UC2-backto-UC6" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="576.07,333.66,559.99,319.86,581.17,320.62,576.07,333.66" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[a6fa2f31c07543784eddbc5a7d8d1666]
+reverse link UC2 to UC7--><g id="link_UC2_UC7"><path d="M618.93,309.56 C641.18,310.99 664.65,312.51 686.59,313.93 " fill="none" id="UC2-backto-UC7" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="618.42,316.54,598.91,308.26,619.32,302.57,618.42,316.54" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[6067a0bc3d34b2cf9700ae546ddf548a]
+reverse link UC2 to UC8--><g id="link_UC2_UC8"><path d="M597.21,284.82 C636.94,275.75 684.18,264.97 720.75,256.63 " fill="none" id="UC2-backto-UC8" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="598.56,291.69,577.51,289.31,595.45,278.04,598.56,291.69" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[30783f8303b273fff6c8b8f594352c15]
+reverse link UC2 to UC14--><g id="link_UC2_UC14"><path d="M572.39,276 C582.47,270.43 592.73,264.31 602,258 C631.45,237.95 632.03,223.61 663,206 C679.39,196.68 698.3,189.06 716.1,183.06 " fill="none" id="UC2-backto-UC14" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="575.64,282.2,554.69,285.4,569.08,269.84,575.64,282.2" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[992c56ecf1ced6032554a8cf34d7aa5c]
+reverse link UC8 to UC9--><g id="link_UC8_UC9"><path d="M878.1,253.62 C907.67,256.91 939.39,260.43 965.81,263.37 " fill="none" id="UC8-backto-UC9" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="877.16,260.56,858.05,251.39,878.71,246.65,877.16,260.56" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[59c5a2764804c37dfed6530a3ea41703]
+reverse link UC8 to UC10--><g id="link_UC8_UC10"><path d="M869.54,227.96 C903.52,222.08 941.42,215.53 971.34,210.36 " fill="none" id="UC8-backto-UC10" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="870.44,234.9,849.54,231.41,868.06,221.11,870.44,234.9" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[b2ea2f3d4d4e6cd88a3ac633956806b5]
+reverse link UC3 to UC11--><g id="link_UC3_UC11"><path d="M298.26,136.11 C360.97,121.07 440.46,102 483.79,91.61 " fill="none" id="UC3-backto-UC11" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="299.63,142.98,278.55,140.84,296.37,129.36,299.63,142.98" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[7e4ae40865ce16fcc55d87a04fc544ec]
+reverse link UC3 to UC12--><g id="link_UC3_UC12"><path d="M302.76,178.49 C361.94,191.15 434.62,206.7 477.88,215.95 " fill="none" id="UC3-backto-UC12" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="300.96,185.26,282.86,174.23,303.88,171.57,300.96,185.26" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[8bfba321155fd6393d62a75e20a111e0]
+reverse link UC3 to UC13--><g id="link_UC3_UC13"><path d="M332.33,156.78 C370.59,156.41 411.31,156.01 444.61,155.69 " fill="none" id="UC3-backto-UC13" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="332.37,163.78,312.31,156.98,332.24,149.78,332.37,163.78" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[ae13971e22e1c54ca10289c2c458fad9]
+link UC2 to GMN33--><g id="link_UC2_GMN33"><path d="M561.55,286.26 C575.81,279.21 590.81,269.84 602,258 C646.39,211.03 616.45,170.83 663,126 C669.85,119.41 677.71,113.65 686.05,108.63 " fill="none" id="UC2-GMN33" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/></g><!--MD5=[290ff0eb87fa589d162eeff2d60ac0cf]
+@startuml
+
+left to right direction
+
+actor User as U
+
+rectangle "Lynxarm Hardware Interface" {
+  usecase "Initialize Lynxarm" as UC1
+  usecase "Set Servo Position" as UC2
+  usecase "Send Predefined Position" as UC3
+  usecase "set Rotor Base Position" as UC5
+  usecase "set shoulder Position" as UC6
+  usecase "set rotor wrist Position" as UC7
+  usecase "set hand Position" as UC8
+  usecase "open hand" as UC9
+  usecase "close hand" as UC10
+  usecase "PARK" as UC11
+  usecase "READY" as UC12
+  usecase "STRAIGH UP" as UC13
+  usecase "set servo wrist Position" as UC14
+  usecase "Emergency Brake" as UC15
+
+
+
+  U - - UC2
+  U - - UC3
+  U - - UC15
+
+
+
+'   UC1 - -> L
+'   UC2 - -> L
+'   UC3 - -> L
+'   UC4 - -> L
+
+  UC1 - -> UC11: <<include>>
+
+  UC3 - -> UC2:  <<include>>
+
+  
+
+    UC2 <|- - UC5
+    UC2 <|- - UC6
+    UC2 <|- - UC7
+    UC2 <|- - UC8
+    UC2 <|- - UC14
+
+    UC8 <|- - UC9
+    UC8 <|- - UC10
+
+    UC3 <|- - UC11
+    UC3 <|- - UC12
+    UC3 <|- - UC13
+note right of UC2 : Constraint\nServo must arrive at the\nspecified position within 2.3 seconds
+
+}
+
+
+
+@enduml
+
+@startuml
+
+left to right direction
+
+actor User as U
+
+rectangle "Lynxarm Hardware Interface" {
+  usecase "Initialize Lynxarm" as UC1
+  usecase "Set Servo Position" as UC2
+  usecase "Send Predefined Position" as UC3
+  usecase "set Rotor Base Position" as UC5
+  usecase "set shoulder Position" as UC6
+  usecase "set rotor wrist Position" as UC7
+  usecase "set hand Position" as UC8
+  usecase "open hand" as UC9
+  usecase "close hand" as UC10
+  usecase "PARK" as UC11
+  usecase "READY" as UC12
+  usecase "STRAIGH UP" as UC13
+  usecase "set servo wrist Position" as UC14
+  usecase "Emergency Brake" as UC15
+
+
+
+  U - - UC2
+  U - - UC3
+  U - - UC15
+
+
+
+
+  UC1 - -> UC11: <<include>>
+
+  UC3 - -> UC2:  <<include>>
+
+  
+
+    UC2 <|- - UC5
+    UC2 <|- - UC6
+    UC2 <|- - UC7
+    UC2 <|- - UC8
+    UC2 <|- - UC14
+
+    UC8 <|- - UC9
+    UC8 <|- - UC10
+
+    UC3 <|- - UC11
+    UC3 <|- - UC12
+    UC3 <|- - UC13
+note right of UC2 : Constraint\nServo must arrive at the\nspecified position within 2.3 seconds
+
+}
+
+
+
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 19:01:30 CEST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

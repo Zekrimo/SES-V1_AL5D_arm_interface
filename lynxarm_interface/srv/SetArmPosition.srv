@@ -1,0 +1,8 @@
+int64 arm_rotor_base
+int64 arm_servo_base
+int64 arm_servo_shoulder
+int64 arm_rotor_hand
+int64 arm_servo_hand
+int64 time_to_goal
+---
+bool success

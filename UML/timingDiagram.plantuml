@@ -1,0 +1,60 @@
+@startuml
+robust   "userClient"    as CL
+robust   "HighLevelDriverServer"       as HL
+robust  "LowLevelDriver"              as LL
+robust "Arduino"       as A0
+
+@0
+CL is Idle
+HL is Idle
+LL is Idle
+A0 is low
+
+
+@+10
+CL is "Sending Request"
+
+
+@+20
+CL -> HL: Request
+CL is Waiting
+HL is "Receiving Request"
+
+@+10
+
+HL is Processing
+
+
+@+5
+HL -> LL: Request
+LL is "Construct Command"
+
+@+30
+HL is "Waiting for Timer"
+LL is "Serial Transmit"
+
+@+10
+LL -> A0: "sending command" 
+A0 is high
+
+@+50
+LL is "Idle"
+A0 is low
+
+
+HL is "Sending Result"
+CL is "Receiving Response"
+
+@+20
+HL -> CL@+10: Respone
+
+@+40
+
+HL is Idle
+
+CL is "Request Completed"
+
+
+
+
+@enduml

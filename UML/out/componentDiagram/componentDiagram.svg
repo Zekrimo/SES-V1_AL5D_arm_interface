@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="912px" preserveAspectRatio="none" style="width:671px;height:912px;background:#FFFFFF;" version="1.1" viewBox="0 0 671 912" width="671px" zoomAndPan="magnify"><defs/><g><!--MD5=[23adf4823fe9df59ec3152e6248087fc]
+cluster Laptop--><g id="cluster_Laptop"><rect fill="none" height="355" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1.0;" width="503" x="7" y="7"/><rect fill="none" height="10" style="stroke:#181818;stroke-width:1.0;" width="15" x="490" y="12"/><rect fill="none" height="2" style="stroke:#181818;stroke-width:1.0;" width="4" x="488" y="14"/><rect fill="none" height="2" style="stroke:#181818;stroke-width:1.0;" width="4" x="488" y="18"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="49" x="234" y="34.9659">Laptop</text></g><!--MD5=[49f515e8292100db534169f52b05367f]
+cluster LynxHLD--><g id="cluster_LynxHLD"><rect fill="none" height="170" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1.0;" width="359" x="39" y="39"/><rect fill="none" height="10" style="stroke:#181818;stroke-width:1.0;" width="15" x="378" y="44"/><rect fill="none" height="2" style="stroke:#181818;stroke-width:1.0;" width="4" x="376" y="46"/><rect fill="none" height="2" style="stroke:#181818;stroke-width:1.0;" width="4" x="376" y="50"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="78" x="179.5" y="66.9659">«ROS::node»</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="62" x="187.5" y="86.0339">LynxHLD</text></g><!--MD5=[072e050cda9020275c7ccf864ab3e558]
+cluster Lynxarm--><g id="cluster_Lynxarm"><rect fill="none" height="513" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1.0;" width="402" x="263" y="393"/><rect fill="none" height="10" style="stroke:#181818;stroke-width:1.0;" width="15" x="645" y="398"/><rect fill="none" height="2" style="stroke:#181818;stroke-width:1.0;" width="4" x="643" y="400"/><rect fill="none" height="2" style="stroke:#181818;stroke-width:1.0;" width="4" x="643" y="404"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="81" x="423.5" y="420.9659">«Robot Arm»</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="36" x="446" y="440.0339">AL5D</text></g><!--MD5=[10ea673caf457862023e152271927b45]
+cluster controller--><g id="cluster_controller"><rect fill="none" height="268.5" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1.0;" width="179" x="306" y="490.5"/><rect fill="none" height="10" style="stroke:#181818;stroke-width:1.0;" width="15" x="465" y="495.5"/><rect fill="none" height="2" style="stroke:#181818;stroke-width:1.0;" width="4" x="463" y="497.5"/><rect fill="none" height="2" style="stroke:#181818;stroke-width:1.0;" width="4" x="463" y="501.5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="78" x="356.5" y="518.4659">«Controller»</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="57" x="367" y="537.5339">SSC-32U</text></g><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="86" x="467" y="334.9659">/dev/ttyUSB0</text><rect fill="#F1F1F1" height="12" style="stroke:#181818;stroke-width:1.5;" width="12" x="504" y="308"/><!--MD5=[2aa4b4b04ba3b8900fe9e4a2958d32d2]
+entity commands--><g id="elem_commands"><ellipse cx="85" cy="314" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="108" x="31" y="345.9659">ROS Commands</text></g><!--MD5=[5ed6ae874a0feec962d71547c10fc4ce]
+entity LLD--><g id="elem_LLD"><rect fill="#F1F1F1" height="49.0679" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="64" x="82" y="120"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="126" y="125"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="124" y="127"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="124" y="131"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="24" x="97" y="154.9659">LLD</text></g><!--MD5=[58b586ad9caebef2cfd75194b6a3785c]
+entity func--><g id="elem_func"><ellipse cx="190" cy="144.5" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="91" x="144.5" y="176.4659">LLD functions</text></g><g id="elem_GMN9"><path d="M234.5,104 L234.5,140.5 L199.35,144.5 L234.5,148.5 L234.5,184.8241 A0,0 0 0 0 234.5,184.8241 L373.5,184.8241 A0,0 0 0 0 373.5,184.8241 L373.5,114 L363.5,104 L234.5,104 A0,0 0 0 0 234.5,104 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M363.5,104 L363.5,114 L373.5,114 L363.5,104 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="85" x="240.5" y="122.897">LynxHLD uses</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="92" x="240.5" y="140.603">these functions</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="115" x="240.5" y="158.309">to send commands</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="74" x="240.5" y="176.0151">to robotarm</text></g><!--MD5=[bc4470fdf94251c4ee91a3f475c22871]
+entity Servo--><g id="elem_Servo"><rect fill="#F1F1F1" height="68.1358" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="117" x="531.5" y="822"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="628.5" y="827"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="626.5" y="829"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="626.5" y="833"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="77" x="546.5" y="856.9659">«Hardware»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="64" x="553" y="876.0339">R/C Servo</text></g><!--MD5=[00179af9bc14e048fef3c02ab7970256]
+entity pwm--><g id="elem_pwm"><ellipse cx="487" cy="856" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="34" x="470" y="887.9659">PWM</text></g><g id="elem_GMN26"><path d="M493,450 L493,530.8241 A0,0 0 0 0 493,530.8241 L649,530.8241 A0,0 0 0 0 649,530.8241 L649,460 L639,450 L561.14,450 L511.76,320.03 L553.14,450 L493,450 A0,0 0 0 0 493,450 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M639,450 L639,460 L649,460 L639,450 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="133" x="499" y="468.897">send serial commands</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="113" x="499" y="486.603">port: /dev/ttyUSB0</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="132" x="499" y="504.309">baudrate: depends on</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="131" x="499" y="522.0151">controller (ex. 115200)</text></g><g id="elem_GMN29"><path d="M279,842 L279,869.706 A0,0 0 0 0 279,869.706 L443,869.706 A0,0 0 0 0 443,869.706 L443,860 L477.76,856 L443,852 L443,852 L433,842 L279,842 A0,0 0 0 0 279,842 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M433,842 L433,852 L443,852 L433,842 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="143" x="285" y="860.897">supports 500-2500 pwm</text></g><!--MD5=[83498722a5683b7648ba900938d0649d]
+entity Firmware--><g id="elem_Firmware"><rect fill="#F1F1F1" height="49.0679" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="103" x="343.5" y="694"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="426.5" y="699"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="424.5" y="701"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="424.5" y="705"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="63" x="358.5" y="728.9659">Firmware</text></g><!--MD5=[51fbb2eb2fd857f28b14547014a7131a]
+entity sl--><g id="elem_sl"><ellipse cx="331" cy="612.5" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="154" x="254" y="644.4659">Lynxmotion user guide</text></g><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="64" x="390" y="468.398">USB COM</text><rect fill="#F1F1F1" height="12" style="stroke:#181818;stroke-width:1.5;" width="12" x="416" y="484.5"/><!--MD5=[fb08a2999976d03945f97df1f8e844b1]
+link LLD to func--><g id="link_LLD_func"><path d="M146.06,144.5 C157.62,144.5 169.18,144.5 180.73,144.5 " fill="none" id="LLD-func" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[699801427eaa4a671bb90ed846aeaba1]
+link LynxHLD to commands--><g id="link_LynxHLD_commands"><path d="M56.1339,209.0065 C56.1662,209.1913 56.1986,209.3763 56.2311,209.5613 C56.3611,210.3015 56.4924,211.0435 56.625,211.7873 C56.8901,213.2747 57.1604,214.7688 57.4358,216.2673 C59.6388,228.2556 62.1675,240.53 65,252 C69.76,271.26 77.57,293.23 81.89,304.83 " fill="none" id="LynxHLD-commands" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[568f09b283f81c60c086764f88224547]
+link sl to Firmware--><g id="link_sl_Firmware"><path d="M336.02,621.66 C345.45,636.98 366.13,670.59 380.32,693.64 " fill="none" id="sl-Firmware" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[db31a1a11a5ee7e07e88e4f32cb1cedb]
+link pwm to Servo--><g id="link_pwm_Servo"><path d="M496.25,856 C507.97,856 519.69,856 531.41,856 " fill="none" id="pwm-Servo" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[a715e7ab800d0082e2fe565f7b8da3ec]
+link Firmware to pwm--><g id="link_Firmware_pwm"><path d="M411.03,743.1 C430.72,772.1 463.39,820.23 478.66,842.71 " fill="none" id="Firmware-to-pwm" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="481.47,846.85,479.7215,837.1576,478.6604,842.714,473.104,841.653,481.47,846.85" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="49" x="444" y="787.897">requires</text></g><!--MD5=[6a28fc11cfabddab6fecc5efcf5d2368]
+link sl to port--><g id="link_sl_port"><path d="M337.29,603.2 C354.82,580.09 403.87,515.41 418.09,496.66 " fill="none" id="sl-port" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[867ff0e7bc527d0310be2758199118b5]
+link LLD to usb--><g id="link_LLD_usb"><path d="M122.26,169.33 C129.9,187.62 143.1,211.88 163,225 C183.26,238.35 193.82,225.83 217,233 C235.42,238.7 237.51,246.53 256,252 C308.38,267.51 457.89,247.2 500,282 C505.99,286.95 508.43,295.53 509.41,302.41 " fill="none" id="LLD-to-usb" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="509.93,307.67,513.0359,298.3237,509.4438,302.6937,505.0738,299.1016,509.93,307.67" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="49" x="257" y="247.897">requires</text></g><!--MD5=[979e6b1816875df97a33753a47fa9004]
+link usb to port--><g id="link_usb_port"><path d="M510.43,320.1 C510.95,329.58 510.65,350.03 500,362 C478.79,385.83 451.81,359.99 432,385 C407.78,415.57 417.06,468.05 420.76,484.45 " fill="none" id="usb-port" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[78f8ccd12f0072a437bdf9430c5a891a]
+@startuml
+
+component Laptop{
+    component LynxHLD <<ROS::node>> { 
+        [LLD]
+        () "LLD functions" as func
+        ' port SerialPort
+        LLD - func 
+        note right of func 
+        LynxHLD uses 
+        these functions 
+        to send commands 
+        to robotarm 
+        end note
+    }
+    port "/dev/ttyUSB0" as usb
+() "ROS Commands" as commands
+LynxHLD - - commands
+}
+
+component "AL5D" as Lynxarm <<Robot Arm>> {
+    component "SSC-32U" as controller <<Controller>> {
+        [Firmware]
+        () "Lynxmotion user guide" as sl
+        port "USB COM" as port
+        sl - - Firmware 
+    }
+    [R/C Servo] as Servo <<Hardware>>
+    () "PWM" as pwm
+    pwm - Servo
+    Firmware ..> pwm : requires
+    sl - port
+
+    note bottom of usb
+    send serial commands
+    port: /dev/ttyUSB0
+    baudrate: depends on 
+    controller (ex. 115200)
+    end note
+
+     note left of pwm
+    supports 500-2500 pwm
+     end note
+}
+
+ LLD ..> usb : requires
+ usb - port
+
+@enduml
+
+@startuml
+
+component Laptop{
+    component LynxHLD <<ROS::node>> { 
+        [LLD]
+        () "LLD functions" as func
+        LLD - func 
+        note right of func 
+        LynxHLD uses 
+        these functions 
+        to send commands 
+        to robotarm 
+        end note
+    }
+    port "/dev/ttyUSB0" as usb
+() "ROS Commands" as commands
+LynxHLD - - commands
+}
+
+component "AL5D" as Lynxarm <<Robot Arm>> {
+    component "SSC-32U" as controller <<Controller>> {
+        [Firmware]
+        () "Lynxmotion user guide" as sl
+        port "USB COM" as port
+        sl - - Firmware 
+    }
+    [R/C Servo] as Servo <<Hardware>>
+    () "PWM" as pwm
+    pwm - Servo
+    Firmware ..> pwm : requires
+    sl - port
+
+    note bottom of usb
+    send serial commands
+    port: /dev/ttyUSB0
+    baudrate: depends on 
+    controller (ex. 115200)
+    end note
+
+     note left of pwm
+    supports 500-2500 pwm
+     end note
+}
+
+ LLD ..> usb : requires
+ usb - port
+
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 19:01:30 CEST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

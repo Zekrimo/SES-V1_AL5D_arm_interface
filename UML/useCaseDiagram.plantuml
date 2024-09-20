@@ -1,0 +1,60 @@
+@startuml
+
+left to right direction
+
+actor User as U
+
+rectangle "Lynxarm Hardware Interface" {
+  usecase "Initialize Lynxarm" as UC1
+  usecase "Set Servo Position" as UC2
+  usecase "Send Predefined Position" as UC3
+  usecase "set Rotor Base Position" as UC5
+  usecase "set shoulder Position" as UC6
+  usecase "set rotor wrist Position" as UC7
+  usecase "set hand Position" as UC8
+  usecase "open hand" as UC9
+  usecase "close hand" as UC10
+  usecase "PARK" as UC11
+  usecase "READY" as UC12
+  usecase "STRAIGH UP" as UC13
+  usecase "set servo wrist Position" as UC14
+  usecase "Emergency Brake" as UC15
+
+
+
+  U -- UC2
+  U -- UC3
+  U -- UC15
+
+
+
+'   UC1 --> L
+'   UC2 --> L
+'   UC3 --> L
+'   UC4 --> L
+
+  UC1 --> UC11: <<include>>
+
+  UC3 --> UC2:  <<include>>
+
+  
+
+    UC2 <|-- UC5
+    UC2 <|-- UC6
+    UC2 <|-- UC7
+    UC2 <|-- UC8
+    UC2 <|-- UC14
+
+    UC8 <|-- UC9
+    UC8 <|-- UC10
+
+    UC3 <|-- UC11
+    UC3 <|-- UC12
+    UC3 <|-- UC13
+note right of UC2 : Constraint\nServo must arrive at the\nspecified position within 2.3 seconds
+
+}
+
+
+
+@enduml

@@ -1,0 +1,101 @@
+@startuml
+participant "Main" as M
+participant "HighLevelDriver" as HLD
+participant "LowLevelDriver" as LLD
+
+M -> HLD: Create Instance
+activate HLD
+HLD -> HLD: initLynxarm()
+activate HLD
+HLD -> HLD: sendPredefinedPosition(PARK)
+activate HLD
+
+HLD -> LLD: queueCommand(0, convertToSafePWM(BASE_ROTOR_PARK, BASE_LEFT, BASE_RIGHT))
+activate LLD
+opt channel < 0 or channel > 31
+  LLD --> HLD: return false
+end
+
+LLD -> LLD: command += "C" + std::to_string(channel)
+
+opt pulse_width < 500 or pulse_width > 2500
+  LLD --> HLD: return false
+end
+
+LLD -> LLD: command += "P" + std::to_string(pulse_width)
+
+opt speed < 1
+  LLD --> HLD: return false
+end
+
+LLD -> LLD: command += "S" + std::to_string(speed)
+
+opt time < 0 or time > 65535
+  LLD --> HLD: return false
+end
+
+LLD -> LLD: command += "T" + std::to_string(time)
+
+LLD --> HLD: return true
+LLD --> HLD: return
+deactivate LLD
+
+HLD -> LLD: queueCommand(1, convertToSafePWM(SHOULDER_PARK, SHOULDER_BACKWARDS, SHOULDER_HORIZONTAL))
+activate LLD
+LLD --> HLD: return
+deactivate LLD
+
+HLD -> LLD: queueCommand(2, convertToSafePWM(ELBOW_PARK, ELBOW_STRAIGHT, ELBOW_INWARDS))
+activate LLD
+LLD --> HLD: return
+deactivate LLD
+
+HLD -> LLD: queueCommand(3, convertToSafePWM(WRIST_PARK, WRIST_DOWN, WRIST_UP))
+activate LLD
+LLD --> HLD: return
+deactivate LLD
+
+HLD -> LLD: queueCommand(4, convertToSafePWM(GRIPPER_PARK, GRIPPER_CLOSED, GRIPPER_OPEN))
+activate LLD
+LLD --> HLD: return
+deactivate LLD
+
+HLD -> LLD: queueCommand(5, convertToSafePWM(WRIST_ROTATE_PARK, WRIST_ROTATE_LEFT, WRIST_ROTATE_RIGHT))
+activate LLD
+LLD --> HLD: return
+deactivate LLD
+
+HLD -> LLD: sendQueuedCommands()
+activate LLD
+LLD -> Serial: Open()
+activate Serial
+Serial --> LLD: return
+LLD -> LLD: sendSerialMessage(command)
+activate LLD
+opt serial is not open
+  LLD -> LLD: clearCommand()
+  LLD --> HLD: return false
+end
+
+opt command length > 1
+  LLD -> LLD: sendSerialMessage(command)
+  LLD -> Serial: write_some(boost::asio::buffer(command));
+  Serial --> LLD: return
+  opt message sent successfully
+    LLD --> HLD: return true
+  end
+end
+LLD --> LLD: return false
+LLD --> HLD: return false
+deactivate LLD
+
+HLD -> LLD: clearCommand()
+activate LLD
+LLD --> HLD: return
+deactivate LLD
+
+HLD --> HLD: return true
+deactivate HLD
+HLD --> M: return true
+deactivate HLD
+@enduml

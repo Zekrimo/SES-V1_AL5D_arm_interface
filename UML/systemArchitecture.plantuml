@@ -1,0 +1,54 @@
+@startuml
+
+class LowLevelDriver {
+    - ioservice: boost::asio::io_service
+    - serial: boost::asio::serial_port
+    - command: std::string
+    - commandQueue: std::queue<std::string>
+    + LowLevelDriver(port_name: const std::string&, baud_rate: uint32_t)
+    + ~LowLevelDriver()
+    + sendPositionData(arm_rotor_base: int64_t, arm_servo_base: int64_t, arm_servo_shoulder: int64_t, arm_rotor_hand: int64_t, arm_servo_hand: int64_t, time_to_goal: int64_t): bool
+    + sendPredefinedPosition(position: predefined_positions): bool
+    + sendSerialMessage(command: std::string): bool
+    + sendServoPositionData(servo_channel: int, pulse_width: int, speed: int = 0, time: int = 0): bool
+    + setServoPositionOffset(servo_channel: int, offset_value: int): bool
+    + queueCommand(servo_channel: int, pulse_width: int, speed: int = 0, time: int = 0): bool
+    + sendQueuedCommands(): bool
+    + clearCommand(): void
+    + processCommandQueue(): bool
+}
+
+class LynxarmHLD {
+    - action_server_: rclcpp_action::Server<lynxarm_interface::action::PredefinedCommandAction>::SharedPtr
+    - service_: rclcpp::Service<lynxarm_interface::srv::SetServoPosition>::SharedPtr
+    + LynxarmHLD(options: const rclcpp::NodeOptions&)
+    + ~LynxarmHLD()
+    + sendSingleServoToPosition(channel: uint8_t, degrees: uint8_t, time: uint16_t, speed: int = 1): bool
+    + sendToPredefinedPosition(command: std::string): bool
+    + initLynxarm(): bool
+}
+
+class rclcpp::Node {
+    + rclcpp::Node::make_shared(name: const std::string&)
+    + create_client(name: const std::string&, callback: Function)
+    + create_service(name: const std::string&, callback: Function)
+    + spin()
+    + shutdown()
+}
+
+class rclcpp::Client {
+    + async_send_request(request: Request)
+}
+
+class rclcpp::Service {
+    + std::shared_ptr<rclcpp::Node> node
+    + handle_request(request: Request, response: Response)
+}
+
+LowLevelDriver "1" -- "1" LynxarmHLD
+LynxarmHLD "1" -- "1" rclcpp::Node
+rclcpp::Node "1" -- "n" rclcpp::Client
+rclcpp::Node "1" -- "n" rclcpp::Service
+
+@enduml
+

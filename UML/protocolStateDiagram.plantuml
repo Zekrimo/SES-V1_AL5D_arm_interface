@@ -1,0 +1,23 @@
+@startuml
+hide empty description
+State Waiting
+State Moving
+State Moved
+' State Stop
+[*] -> Waiting 
+Waiting --> Moving : [serial.is_open()] setServoPosition(servo,position,speed,time)/ []
+Waiting --> Moving : [serial.is_open()] setPredefinedPosition(command)/ []
+Moving --> Moved : [rclcpp::ok()] / []
+Moved --> Waiting : [] / []
+Waiting -> [*] : [spin(hld)] stop/ [emergencyStop()] 
+Moving --> Waiting :  ctrl+c/ []
+
+note top of Waiting
+  The commands are ROS actions sent from the terminal:
+  PredefinedCommand, command: park::string/ready::string/straigt_up::string
+  SingleServoCommand, servo::uint8,position::int16,speed::int16,time::uint16
+  Waiting --> Moving
+  see documentation for the exact commands.
+end note
+
+@enduml

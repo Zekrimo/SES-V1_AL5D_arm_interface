@@ -1,0 +1,65 @@
+@startuml
+package lynxarm_srvcli {
+    enum predefined_positions {
+        PARK
+        READY
+        STRAIGHTUP
+    }
+
+    class HighLevelDriverServer {
+        - max_time: uint64_t
+        - serialPort : const std::string
+        - baudRate : const uint32_t
+        - lowLevelDriver : LowLevelDriver
+        - handle_goal : rclcpp_action::GoalResponse
+        - handle_cancel : rclcpp_action::CancelResponse
+        - handle_accepted : void
+        - execute : void
+        - convertToDegrees(int pwm) : int
+        - convertToPWM(int degrees) : int
+        - converToSafePwm(int pwm, int minRange, int maxRange) : int
+        - setServoPosition(const std::shared_ptr<lynxarm_interface::srv::SetServoPosition::Request> request, std::shared_ptr<lynxarm_interface::srv::SetServoPosition::Response> response) : void
+
+
+        + LynxarmHLD(): void
+        + ~LynxarmHLD(): void
+        + sendSingleServoToPosition(uint8_t channel, uint8_t degrees, uint16_t time, int speed = 1) : bool
+        + sendToPredefinedPosition(std::string command) : bool
+        + sendToPredefinedPosition(predefined_positions position) : bool
+        + sendToPredefinedPosition(uint8_t position) : bool
+        + initLynxarm() : bool
+
+    }
+
+    class LowLevelDriver {
+        - ioservice : boost::asio::io_service
+        - serialPort : boost::asio::serial_port
+        - command : std::string
+        - commandQueue : std::queue<std::string>
+        
+        + LowLevelDriver(const std::string &serialPort, uint32_t baudRate)
+        + ~LowLevelDriver()
+        + sendSerialMessage(std::string command) : bool
+        + sendSingleServoPositionData(uint8_t channel, uint8_t degrees, uint16_t time, int speed = 1) : bool
+        + setServoPositionOffset(uint8_t channel, uint8_t offset) : bool
+        + queueCommand(int channel, int degrees, int time, int speed = 1) : bool
+        + sendQueuedCommands() : bool
+        + clearCommands() : void
+        + processCommandQueue() : bool
+        + emergecyStop() : bool
+        
+        
+        
+        }
+
+    class userClient {
+        + main(int argc, char **argv): int
+    }
+}
+
+package lynxarm_interface {
+    class messages
+
+}
+
+@enduml

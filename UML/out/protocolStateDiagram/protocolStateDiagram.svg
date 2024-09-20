@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="450px" preserveAspectRatio="none" style="width:976px;height:450px;background:#FFFFFF;" version="1.1" viewBox="0 0 976 450" width="976px" zoomAndPan="magnify"><defs/><g><rect fill="#F1F1F1" height="40" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="62" x="642.58" y="166"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="52" x="647.58" y="191.432">Waiting</text><rect fill="#F1F1F1" height="40" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="60" x="542.58" y="285"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="50" x="547.58" y="310.432">Moving</text><rect fill="#F1F1F1" height="40" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="55" x="682.08" y="404"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="45" x="687.08" y="429.432">Moved</text><ellipse cx="597.58" cy="186" fill="#222222" rx="10" ry="10" style="stroke:none;stroke-width:1.0;"/><ellipse cx="960.58" cy="186" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><ellipse cx="961.08" cy="186.5" fill="#222222" rx="6" ry="6" style="stroke:none;stroke-width:1.0;"/><g id="elem_GMN14"><path d="M435.08,6 L435.08,104.5301 A0,0 0 0 0 435.08,104.5301 L669.58,104.5301 L673.58,165.89 L677.58,104.5301 L912.08,104.5301 A0,0 0 0 0 912.08,104.5301 L912.08,16 L902.08,6 L435.08,6 A0,0 0 0 0 435.08,6 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M902.08,6 L902.08,16 L912.08,16 L902.08,6 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="328" x="441.08" y="24.897">The commands are ROS actions sent from the terminal:</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="456" x="441.08" y="42.603">PredefinedCommand, command: park::string/ready::string/straigt_up::string</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="446" x="441.08" y="60.309">SingleServoCommand, servo::uint8,position::int16,speed::int16,time::uint16</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="113" x="441.08" y="78.0151">Waiting --&gt; Moving</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="267" x="441.08" y="95.7211">see documentation for the exact commands.</text></g><!--MD5=[ee479c5534e64a986da0a84248b14176]
+link *start to Waiting--><g id="link_*start_Waiting"><path d="M607.67,186 C617.54,186 627.4,186 637.27,186 " fill="none" id="*start-to-Waiting" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="642.43,186,633.43,182,637.43,186,633.43,190,642.43,186" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[4478c7faf8e96d36d74bdc5dcdd8e33b]
+link Waiting to Moving--><g id="link_Waiting_Moving"><path d="M642.4,200.77 C636.58,202.86 630.47,204.73 624.58,206 C564.42,218.95 113.9,191.33 71.58,236 C6,305.23 412.61,305.93 537.15,304.56 " fill="none" id="Waiting-to-Moving" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="542.51,304.49,533.4649,300.5931,537.5103,304.5471,533.5563,308.5926,542.51,304.49" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="378" x="72.58" y="250.897">[serial.is_open()] setServoPosition(servo,position,speed,time)/ []</text></g><!--MD5=[4478c7faf8e96d36d74bdc5dcdd8e33b]
+link Waiting to Moving--><g id="link_Waiting_Moving"><path d="M642.45,199.86 C636.57,202.07 630.43,204.22 624.58,206 C566.62,223.67 529.42,188.67 491.58,236 C473.51,258.6 508.37,279.14 537.85,291.59 " fill="none" id="Waiting-to-Moving-1" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="542.53,293.52,535.7309,286.3945,537.9066,291.6163,532.6849,293.792,542.53,293.52" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="316" x="492.58" y="250.897">[serial.is_open()] setPredefinedPosition(command)/ []</text></g><!--MD5=[dd63c21b5265b581e1247758b0a60152]
+link Moving to Waiting--><g id="link_Moving_Waiting"><path d="M602.62,302.47 C661.19,298.79 787.24,287.24 813.58,255 C844.66,216.97 761.03,198.66 709.92,191.24 " fill="none" id="Moving-to-Waiting" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="704.77,190.52,713.1223,195.7391,709.7209,191.2191,714.2409,187.8177,704.77,190.52" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="48" x="820.58" y="250.897">ctrl+c/ []</text></g><!--MD5=[dbf85124e34203634c73506b3a22ee96]
+link Moving to Moved--><g id="link_Moving_Moved"><path d="M594.9,325.06 C619.08,345.71 657.63,378.64 683.27,400.53 " fill="none" id="Moving-to-Moved" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="687.27,403.95,683.0399,395.0559,683.4737,400.696,677.8335,401.1299,687.27,403.95" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="92" x="650.58" y="369.897">[rclcpp::ok()] / []</text></g><!--MD5=[0cda31778d9cd39f8d8e3ed18aa02ddc]
+link Moved to Waiting--><g id="link_Moved_Waiting"><path d="M737.48,410.13 C798.01,380.5 931.75,304.72 877.58,236 C857.05,209.95 762.48,196.17 709.61,190.38 " fill="none" id="Moved-to-Waiting" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="704.63,189.84,713.1426,194.7933,709.6005,190.3828,714.011,186.8406,704.63,189.84" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="27" x="888.58" y="310.397">[] / []</text></g><!--MD5=[d61b69bae554c4e02080e923d6d797cd]
+link Waiting to *end--><g id="link_Waiting_*end"><path d="M704.84,186 C766.13,186 900.03,186 945.29,186 " fill="none" id="Waiting-to-*end" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="950.36,186,941.36,182,945.36,186,941.36,190,950.36,186" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="209" x="723.08" y="178.897">[spin(hld)] stop/ [emergencyStop()]</text></g><!--MD5=[08352426735ca5cfd98fb67e232381f3]
+@startuml
+hide empty description
+State Waiting
+State Moving
+State Moved
+' State Stop
+[*] -> Waiting 
+Waiting - -> Moving : [serial.is_open()] setServoPosition(servo,position,speed,time)/ []
+Waiting - -> Moving : [serial.is_open()] setPredefinedPosition(command)/ []
+Moving - -> Moved : [rclcpp::ok()] / []
+Moved - -> Waiting : [] / []
+Waiting -> [*] : [spin(hld)] stop/ [emergencyStop()] 
+Moving - -> Waiting :  ctrl+c/ []
+
+note top of Waiting
+  The commands are ROS actions sent from the terminal:
+  PredefinedCommand, command: park::string/ready::string/straigt_up::string
+  SingleServoCommand, servo::uint8,position::int16,speed::int16,time::uint16
+  Waiting - -> Moving
+  see documentation for the exact commands.
+end note
+
+@enduml
+
+@startuml
+hide empty description
+State Waiting
+State Moving
+State Moved
+[*] -> Waiting 
+Waiting - -> Moving : [serial.is_open()] setServoPosition(servo,position,speed,time)/ []
+Waiting - -> Moving : [serial.is_open()] setPredefinedPosition(command)/ []
+Moving - -> Moved : [rclcpp::ok()] / []
+Moved - -> Waiting : [] / []
+Waiting -> [*] : [spin(hld)] stop/ [emergencyStop()] 
+Moving - -> Waiting :  ctrl+c/ []
+
+note top of Waiting
+  The commands are ROS actions sent from the terminal:
+  PredefinedCommand, command: park::string/ready::string/straigt_up::string
+  SingleServoCommand, servo::uint8,position::int16,speed::int16,time::uint16
+  Waiting - -> Moving
+  see documentation for the exact commands.
+end note
+
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 19:01:30 CEST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
